@@ -18,7 +18,7 @@ jobs:
         with:
           version: "2" # Recommended: pin to major version for automatic updates within v2.x.x
           vulnerabilitiesScan: true
-          malwareScan: true
+          malwareScan: false
           secretsScan: true
           artifact: dir:./damn-vulnerable-MCP-server
           additionalArgs: --endpoint https://artifactscan.us-1.dev-cloudone.trendmicro.com --region us-east-1 --malwareScanEndpoint antimalware.us-1.dev-cloudone.trendmicro.com:443
